@@ -1,7 +1,7 @@
-import React, { useImperativeHandle } from 'react';
+import React, { Component } from 'react';
 import { post } from 'axios';
 
-class CustomerAdd extends React.Component {
+class CustomerAdd extends Component {
   constructor(props) {
     super(props);
     this.state = {
