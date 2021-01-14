@@ -7,12 +7,12 @@ React, node.js, AWS RDS를 사용한 CRUD + @
 ##기능 
 ### search
  - 서치 바에 입력한 문자열이 포함된 이름을 갖는 데이터만 출력하도록 단순한 필터구현
-![search](https://user-images.githubusercontent.com/48829883/104587244-01d38300-56aa-11eb-9c85-7ca906b6a949.mp4)
+https://user-images.githubusercontent.com/48829883/104590691-077f9780-56af-11eb-9ab7-efded8611f6c.mp4
 
 ### Create
  - '고객 추가하기' 버튼으로 Dialog를 띄워 폼 데이터를 받아서 POST방식으로 REST API 호출하여 데이터베이스에 입력한 데이터 추가 
  -  axios 모듈의 post를 사용해서 간편하게 구현
- ![create](https://user-images.githubusercontent.com/48829883/104588523-d5b90180-56ab-11eb-98f8-dbf0cb5fd2a1.mp4)
+ ![create](https://user-images.githubusercontent.com/48829883/104590790-23833900-56af-11eb-80fe-db8cb808f475.gif)
 
 ### Read
  - GET방식으로 REST API 호출하여 데이터베이스에 있는 모든 데이터 가져옴.
@@ -21,7 +21,7 @@ React, node.js, AWS RDS를 사용한 CRUD + @
 ### Delete
  - '삭제' 버튼으로 Dialog를 띄워 삭제여부 선택 후 DELETE방식으로 REST API 호출하여 데이터베이스에서 해당 데이터 삭제.
  - fetch 함수 사용
- ![delete](https://user-images.githubusercontent.com/48829883/104588727-26c8f580-56ac-11eb-9bcb-36f697c8df3b.mp4)
+ ![delete](https://user-images.githubusercontent.com/48829883/104590752-16fee080-56af-11eb-8115-6892adc658c9.gif)
 
 
 ## 자세한 구현 설명
