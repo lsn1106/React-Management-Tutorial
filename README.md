@@ -7,7 +7,7 @@ React, node.js, AWS RDS를 사용한 CRUD + @
 ## 기능 
 ### search
  - 서치 바에 입력한 문자열이 포함된 이름을 갖는 데이터만 출력하도록 단순한 필터구현
-https://user-images.githubusercontent.com/48829883/104590691-077f9780-56af-11eb-9ab7-efded8611f6c.mp4
+![search](https://user-images.githubusercontent.com/48829883/104590732-136b5980-56af-11eb-8bc6-42097d2eef8d.gif)
 
 ### Create
  - '고객 추가하기' 버튼으로 Dialog를 띄워 폼 데이터를 받아서 POST방식으로 REST API 호출하여 데이터베이스에 입력한 데이터 추가 
