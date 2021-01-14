@@ -1,10 +1,10 @@
-#Management System
+# Management System
 React, node.js, AWS RDS를 사용한 CRUD + @
 - node.js: express, axios, multer등을 활용해서 React dev server에 REST API 제공
 - React: MaterialUI로 기본적인 UI 구성, 필터함수로 search 기능 구현
 - AWS RDS: 프리티어 MySQL, 외부 시스템에선 HeidiSQL 등으로 접근 및 수정 가능.
 
-##기능 
+## 기능 
 ### search
  - 서치 바에 입력한 문자열이 포함된 이름을 갖는 데이터만 출력하도록 단순한 필터구현
 https://user-images.githubusercontent.com/48829883/104590691-077f9780-56af-11eb-9ab7-efded8611f6c.mp4
